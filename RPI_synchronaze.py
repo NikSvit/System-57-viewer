@@ -8,4 +8,4 @@ if reply.returncode == 0:
     if reply.stdout.find("System clock synchronized: yes") != -1:
         print('Bingo!')
 else:
-    print('Unreachable')
+    print('Error')
